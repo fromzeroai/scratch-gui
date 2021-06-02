@@ -46,6 +46,10 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+// 20210601 otani
+import fromzeroaiIconURL from './fromzeroai/fromzeroai.png';
+import fromzeroaiInsetIconURL from './fromzeroai/fromzeroai-icon.png';
+
 export default [
     {
         name: (
@@ -317,5 +321,16 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: "fromZERO.AI Web API Blocks",
+        extensionId: 'fromzeroai',
+        iconURL: fromzeroaiIconURL,
+        insetIconURL: fromzeroaiInsetIconURL,
+        collaborator: 'fromZERO.AI',
+        description: "Google BERTで日本語テキストを分類します。",
+        featured: true,
+        internetConnectionRequired: true,
+        helpLink: 'https://fromzero.ai/'
     }
 ];
