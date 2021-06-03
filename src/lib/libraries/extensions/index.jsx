@@ -323,12 +323,12 @@ export default [
         helpLink: 'https://scratch.mit.edu/vernier'
     },
     {
-        name: "fromZERO.AI Web API Blocks",
+        name: "fromZEROでAI体験",
         extensionId: 'fromzeroai',
         iconURL: fromzeroaiIconURL,
         insetIconURL: fromzeroaiInsetIconURL,
         collaborator: 'fromZERO.AI',
-        description: "Google BERTで日本語テキストを分類します。",
+        description: "日本語の文章から人・場所・色の名前を見つけます。",
         featured: true,
         internetConnectionRequired: true,
         helpLink: 'https://fromzero.ai/'
