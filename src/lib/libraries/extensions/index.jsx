@@ -328,7 +328,7 @@ export default [
         iconURL: fromzeroaiIconURL,
         insetIconURL: fromzeroaiInsetIconURL,
         collaborator: 'fromZERO.AI',
-        description: "日本語の文章から人・場所・色の名前を見つけます。",
+        description: "日本語の文章から人・場所・色の名前を見つける。",
         featured: true,
         internetConnectionRequired: true,
         helpLink: 'https://fromzero.ai/'
