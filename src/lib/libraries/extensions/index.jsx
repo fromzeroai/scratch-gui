@@ -52,6 +52,17 @@ import fromzeroaiInsetIconURL from './fromzeroai/fromzeroai-icon.png';
 
 export default [
     {
+        name: "fromZEROでAI体験",
+        extensionId: 'fromzeroai',
+        iconURL: fromzeroaiIconURL,
+        insetIconURL: fromzeroaiInsetIconURL,
+        collaborator: 'fromZERO.AI',
+        description: "日本語の文章から人・場所・色の名前を見つける。",
+        featured: true,
+        internetConnectionRequired: true,
+        helpLink: 'https://fromzero.ai/'
+    },
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -321,16 +332,5 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    },
-    {
-        name: "fromZEROでAI体験",
-        extensionId: 'fromzeroai',
-        iconURL: fromzeroaiIconURL,
-        insetIconURL: fromzeroaiInsetIconURL,
-        collaborator: 'fromZERO.AI',
-        description: "日本語の文章から人・場所・色の名前を見つける。",
-        featured: true,
-        internetConnectionRequired: true,
-        helpLink: 'https://fromzero.ai/'
     }
 ];
